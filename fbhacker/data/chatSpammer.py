@@ -1,11 +1,8 @@
 #-*-coding:utf-8-*-
-# Coded By Deray
+# Coded By Mr.KaitoX
 '''
 	 Rebuild Copyright Can't make u real programmer
 '''
-# Report Bug On My Other Sosmed
-# instagram: @reyy05_
-# facebook: https://facebook.com/achmad.luthfi.hadi.3
 
 import re
 import sys
